@@ -1,0 +1,861 @@
+\documentclass[a4paper, 12pt]{report}
+\usepackage{url}
+\usepackage[UTF8]{ctex}
+% \usepackage[portuges]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{bibentry,natbib}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{supertabular}
+\usepackage{caption}
+\usepackage{indentfirst}
+\usepackage{verbatim}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{wrapfig}
+\usepackage{relsize}
+\usepackage{chngcntr}
+\counterwithin{figure}{subsection}
+\usepackage{lipsum}% http://ctan.org/pkg/lipsum
+\usepackage{xcolor}% http://ctan.org/pkg/xcolor
+\usepackage{xparse}% http://ctan.org/pkg/xparse
+\NewDocumentCommand{\myrule}{O{1pt} O{2pt} O{black}}{%
+  \par\nobreak % don't break a page here
+  \kern\the\prevdepth % don't take into account the depth of the preceding line
+  \kern#2 % space before the rule
+  {\color{#3}\hrule height #1 width\hsize} % the rule
+  \kern#2 % space after the rule
+  \nointerlineskip % no additional space after the rule
+}
+\usepackage[section]{placeins}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{colortbl}%
+   \newcommand{\myrowcolour}{\rowcolor[gray]{0.925}}
+   
+\usepackage[obeyspaces]{url}
+\usepackage{etoolbox}
+\usepackage[colorlinks,citecolor=black,urlcolor=blue,bookmarks=false,hypertexnames=true]{hyperref} 
+
+\usepackage{geometry}
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	inner=3cm, % Inner margin
+	outer=3cm, % Outer margin
+	bindingoffset=.5cm, % Binding offset
+	top=2cm, % Top margin
+	bottom=2cm, % Bottom margin
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+\setlength {\marginparwidth }{2cm} 
+%*******************************************************************************%
+%************************************START**************************************%
+%*******************************************************************************%
+\begin{document}
+\captionsetup[figure]{labelfont={default},labelformat={default},labelsep=period,name={Fig.}}
+\captionsetup[table]{labelfont={default},labelformat={default},labelsep=period,name={Tab.}}
+
+
+\begin{titlepage}
+\begin{center}
+\textbf{\LARGE GUANGDONG UNIVERSITY OF FOREIGN STUDIES}\\[0.5cm] 
+\textbf{\large FACULTY OF ACCOUNTING}\\ [0.2cm]
+\vspace{20pt}
+\includegraphics[scale=0.25]{Graphics/会计学院水印.jpg}\\[1cm]
+
+\par
+\myrule[1pt][7pt]
+\textbf{\LARGE  SBL2 REPORT}\par
+\vspace{15pt}
+\textbf{\large Nike,
+Just do it
+}\par
+\myrule[1pt][7pt]
+\vspace{25pt}
+\textbf{\large Team of boys}\\[1cm]
+\begin{comment}
+\textbf{\large Student Name \hspace{20pt} Student ID}\par
+1.Mengyuan Zhang \hspace{45pt} 14AGB06230 \par % No1 
+2.Haotian Xie \hspace{45pt} 14AGB06230 \par % No2
+3.Ziyang Cai \hspace{45pt} 14AGB06230 \par
+4.Xiangbo Kang \hspace{45pt} 14AGB06230 \par
+5.Zifeng Dong \hspace{45pt} 14AGB06230 \par
+6.Weiyao Li \hspace{45pt} 14AGB06230 \par
+\end{comment}
+\vspace{125pt}
+\textbf {\large Lecturer in charge:}\\[0.2cm]
+\Large {Dr. Sunli}\\[0.1cm]
+\end{center}
+
+\par
+\vfill
+\begin{center}
+\textbf{Submission Date : 26/12/2021}\\
+\end{center}
+
+\end{titlepage}
+\renewcommand{\contentsname}{Contents}
+\renewcommand{\bibname}{Reference}
+\tableofcontents 
+ 
+\chapter{Environment of industry}
+\section{Industry overview}
+
+\subsection{Introduction to sporting goods manufacturing industry}
+Sporting goods market is a specialized market gradually separated from the consumer goods market with the continuous development and popularization of sports and the rapid growth of consumer demand for sporting goods. It is a tangible product market that provides people with materials needed for sports activities. It mainly includes sports fitness equipment, sports training equipment, sports clothing Sports medicine and sports food and beverage market. As the supply side of the sporting goods market, sporting goods manufacturing industry is an important part of the sports industry. The development of sports service industries such as sports fitness and entertainment industry, sports competition and performance industry, sports training industry and sports intermediary industry is inseparable from the support of sporting goods manufacturing industry.
+\newline
+In a broad sense, sporting goods refer to all items used in the process of physical education, competitive sports and physical exercise. According to the different characteristics and uses of sports, sporting goods can be divided into: 
+
+\subsection{Industry development trend}
+The sporting goods industry started earlier in developed countries and was in the "mature stage" by the 1970s. During this period, the sporting goods enterprises in these countries seized the opportunity of the blank supply of sports consumption, invested heavily in expanding production lines, and the scale of enterprises grew rapidly.\par
+After the 1980s, the production of sporting goods began to have the characteristics of internationalization. This is mainly because many developing countries began to implement the policy of reform and opening up during this period and advocated vigorously developing their own economy by attracting foreign investment. This policy not only developed their own economy, but also expanded the space of the international market of sporting goods industry, and brought new development opportunities for sporting goods enterprises in developed countries. Sporting goods production enterprises in developed countries fully grasp this opportunity to expand their own strength, jump out of the country and enter the international market one after another, seize market share and build international brands through transnational operation.\par
+According to the survey report of the World Sporting Goods Federation and Goldman Sachs in 2002, the scale of the world sporting goods consumer market in 2000 was about 92 billion US dollars, of which the US market accounted for 50\%, making it the largest market in the world: Europe, followed by North America, the EU countries accounted for 38\% of the world market, making it the second largest market in the world, including Germany, France Britain occupies 60\% of the sporting goods market share in the EU and is the largest sporting goods market in the EU.\par
+\section{Detailed PESTLE Analysis}
+A PESTLE analysis provides an outline of the aspects that can affect the progress of a company. External influences are pretty powerful and can affect well-established organizations. The PESTLE analysis is done to chart the impact of multiple external conditions on the future development of a company. The company can take note of the problems or threats that can hinder the company's growth and develop appropriate strategies to counter those problems. The PESTEL analysis Nike shows the crucial factors that can potentially disturb the expansion of the business. The company has to take both the threats and opportunities into account for developing a better strategy. The company is already in a good position as it is making a considerable profit. People appreciate their brand a lot. They can further work on their product designs to make sportswear comfortable and trendy. They should refrain from indulging in immoral practices for the sake of profit. They should also be alert about cheaper products that enter the market.
+\subsection{Political Factors}
+Favorable political situation provides a boost to a company. A suitable business environment is possible politically stable areas. Political factors that can affect the expansion of Nike are:
+\begin{itemize}
+    \item The stability of the American economy provides ample scope for the growth of Nike with its favorable international tax agreements.
+    \item Manufacturing laws and tax regulations are bound to change. Thus, affecting the growth of Nike.
+    \item The worldwide operation of Nike involves the export and import of goods. The political issues in other countries can affect the customs process that can hamper smooth operation.
+    \item The statement about Xinjiang cotton may reduce Nike's share in China, the world's largest market. But the recent signing of Nike's brand with Chinese women's basketball players seems to give things room for maneuver.
+\end{itemize}
+\subsection{Economic Factors}
+This aspect directly deals with the sales and profit margin of the company. Nike is less prone to economic issues due to the affordability and popularity of its products. The probable economic factors that can affect Nike are:
+\begin{itemize}
+    \item Financially, Nike can target markets that are emerging across the globe. With a succinct marketing strategy, Nike can amplify their reach through new markets.
+    \item The production cost of products is slowly rising due to the development of economically backward countries from where the production of Nike products took place.
+    \item Market crashes or availability of cheaper products is a problem for brands like Nike as low-cost, decent products are often preferable.
+    \item Sports brands made in China are gradually growing. Most of these brands focus on cost-effective and fashion, which has caused great uncertainty about the external economic environment for Nike's future development.
+\end{itemize}
+\subsection{Social Factors}
+Social conditions are known to affect the sales of any business. PESTEL analysis is beneficial for mapping the social conditions that can affect the sales of the company:
+\begin{itemize}
+    \item Consumers in different countries are mostly adopting a health-conscious approach. Lifestyle changes also impact health. Nike has ample opportunity to promote its brand among health-conscious people.
+    \item Work stress is a common issue that propels people to find some leisurely activities. Nike can use this opportunity to forward their strategies in the product development avenue that aids leisure activities.
+    \item Nike needs to refine their production practices and make them safer so that consumers don’t have to worry about the safety of their products.
+    \item Nike should pay more attention to its handling measures in sweatshops and related events, and consumers will be more inclined to choose brands with better social image.
+\end{itemize}
+\subsection{Technological Factors}
+For Nike, technology is vital for streamlining its product innovation. The PESTEL analysis Nike show how technology has catalyzed the expansion of Nike:
+\begin{itemize}
+    \item Nike can use data available from technological sources to build vantage points that will help in increasing profits.
+    \item Nike has made excellent use of social media to increase its brand value. Interaction with potential clients is also possible through social media. But overusing social media platforms can be counterproductive.
+    \item Nike's investment in more technology research and development in environmental protection may help it gain market share.
+\end{itemize}
+\subsection{Ecological Factors}
+Ecological factors are vital because of the growing concern regarding environmental problems causing climate change. The environmental issues that can affect the business of Nike are:
+\begin{itemize}
+    \item Production of nature-friendly products and reaction of waste are promises made by Nike to curb environmental pollution. They have to devise an innovative waste management plan that doesn’t impact the environment.
+    \item The factories owned by Nike are known to cause both air and water pollution. This factor can cause an uproar by environmentalists.
+    \item Environmental issues are an important issue at present. Nike may invest more resources in environmental protection, which may have a negative impact on short-term profits, but from a long-term perspective, it is very important to form an environment-friendly image.
+\end{itemize}
+\subsection{Legal Factors}
+Legal issues are always essential for a company. PESTEL analysis Nike helps to identify those possible legal problems that can crop up are:
+\begin{itemize}
+    \item The case of false discounts offered by Nike is a legal issue that also deteriorates the relation of the company with its valued customers.
+    \item Tax evasion is another vital legal issue that the company should urgently rectify.
+    \item The sweatshop incident and environmental protection incidents mentioned above may cause legal trouble for Nike. 
+\end{itemize}
+% \PESTEL
+
+\section{Porter‘s Five Forces}
+In his revolutionary article - "Five Forces that Shape Strategy", Michael Porter observed five forces that have significant impact on a firm's profitability in its industry. These five forces analysis today in business world is also known as -Porter Five Forces Analysis. The Porter Five Forces are 
+\begin{itemize}
+    \item Threat of New Entrants
+    \item Bargaining Power of Suppliers
+    \item Bargaining Power of Buyers
+    \item Threat from Substitute Products
+    \item Rivalry among the existing players
+
+\end{itemize}
+Porter Five Forces is a holistic strategy framework that took strategic decision away from just analyzing the present competition. Porter Five Forces focuses on - how NIKE, Inc. can build a sustainable competitive advantage in Textile - Apparel Footwear \& Accessories industry. Managers at NIKE, Inc. can not only use Porter Five Forces to develop a strategic position with in Textile - Apparel Footwear \& Accessories industry but also can explore profitable opportunities in whole Consumer Goods sector.
+\subsection{Threats of New Entrants}
+New entrants in Textile - Apparel Footwear & Accessories brings innovation, new ways of doing things and put pressure on NIKE, Inc. through lower pricing strategy, reducing  costs, and providing new value propositions to the customers. NIKE, Inc. has to manage all these challenges and build effective barriers to safeguard its competitive edge.\par
+NIKE, Inc. can tackle the Threats of New Entrants by:
+\begin{itemize}
+    \item Innovating new products and services. New products not only brings new customers to the fold but also give old customer a reason to buy NIKE, Inc. ‘s products.
+    \item Building economies of scale so that it can lower the fixed cost per unit. 
+    \item Building capacities and spending money on research and development. New entrants are less likely to enter a dynamic industry where the established players such as NIKE, Inc. keep defining the standards regularly. It significantly reduces the window of extraordinary profits for the new firms thus discourage new players in the industry.
+
+\end{itemize}
+\subsection{Bargaining Power of Suppliers}
+All most all the companies in the Textile - Apparel Footwear & Accessories industry buy their raw material from numerous suppliers. Suppliers in dominant position can decrease the margins NIKE, Inc. can earn in the market. Powerful suppliers in Consumer Goods sector use their negotiating power to extract higher prices from the firms in Textile - Apparel Footwear & Accessories field. The overall impact of higher supplier bargaining power is that it lowers the overall profitability of Textile - Apparel Footwear & Accessories.//
+NIKE, Inc. can tackle Bargaining Power of the Suppliers by:
+\begin{itemize}
+    \item Building efficient supply chain with multiple suppliers.
+    \item Experimenting with product designs using different materials so that if the prices go up of one raw material then company can shift to another.
+    \item Developing dedicated suppliers whose business depends upon the firm. One of the lessons NIKE, Inc. can learn from Wal-Mart and Nike is how these companies developed third party manufacturers whose business solely depends on them thus creating a scenario where these third party manufacturers have significantly less bargaining power compare to Wal-Mart and Nike.
+
+\end{itemize}
+\subsection{Bargaining Power of Buyers}
+Buyers are often a demanding lot. They want to buy the best offerings available by paying the minimum price as possible. This put pressure on NIKE, Inc. profitability in the long run. The smaller and more powerful the customer base is of NIKE, Inc. the higher the bargaining power of the customers and higher their ability to seek increasing discounts and offers.
+NIKE, Inc. can tackle Bargaining Power of the Buyers by:
+\begin{itemize}
+    \item Building a large base of customers. This will be helpful in two ways. It will reduce the bargaining power of the buyers plus it will provide an opportunity to the firm to streamline its sales and production process.
+    \item Rapidly innovating new products. Customers often seek discounts and offerings on established products so if NIKE, Inc. keep on coming up with new products then it can limit the bargaining power of buyers.
+    \item New products will also reduce the defection of existing customers of NIKE, Inc. to its competitors.
+
+\end{itemize}
+
+\subsection{Threats of Substitute Products or Services}
+When a new product or service meets a similar customer needs in different ways, industry profitability suffers. For example services like Dropbox and Google Drive are substitute to storage hardware drives. The threat of a substitute product or service is high if it offers a value proposition that is uniquely different from present offerings of the industry.
+NIKE, Inc. can tackle Treat of Substitute Products / Services by:
+\begin{itemize}
+    \item Being service oriented rather than just product oriented.
+    \item Understanding the core need of the customer rather than what the customer is buying. 
+    \item Increasing the switching cost for the customers.
+
+\end{itemize}
+\subsection{Rivalry among the Existing Competitors}
+If the rivalry among the existing players in an industry is intense then it will drive down prices and decrease the overall profitability of the industry. NIKE, Inc. operates in a very competitive Textile - Apparel Footwear & Accessories industry. This competition does take toll on the overall long term profitability of the organization.
+NIKE, Inc. can tackle Rivalry among the Existing Competitors in Textile - Apparel Footwear & Accessories industry by:
+\begin{itemize}
+    \item Building a sustainable differentiation
+    \item Building scale so that it can compete better
+    \item Collaborating with competitors to increase the market size rather than just competing for small market.
+\end{itemize}
+% \Five forces
+\subsection{Implications of Porter Five Forces on NIKE Inc.}
+By analyzing all the five competitive forces NIKE, Inc. strategists can gain a complete picture of what impacts the profitability of the organization in Textile - Apparel Footwear \& Accessories Industry. They can identify game changing trends early on and can swiftly respond to exploit the emerging opportunity. By understanding the Porter Five Forces in great detail NIKE, Inc.'s managers can shape those forces in their favor.
+%********************************%
+%***********SECTION 2************%
+%********************************%
+\chapter{Detailed analysis of Nike}
+\section{Enterprise overview}
+\subsection{Nature}
+Nike was founded in 1972 and headquartered in Portland, Oregon. The company produces a wide range of sporting goods, such as clothing, shoes, sports equipment, etc. Nike is a world-famous sports brand, which originally means the Greek goddess of victory in English and translated into 耐克 in Chinese. Nike Commerce (China) Co., Ltd. was registered and established in Shanghai Administration for Industry and Commerce on May 18, 2012. The legal representative is Richard mark Russell flint. The company's business scope includes sporting goods, clothing, footwear, footwear detergent, sports accessories, etc. The background information of Nike will in developing a better idea regarding the scope of this company. The high brand value of Nike made it the most valuable sports brand in 2020.
+ \begin{figure}[p]
+ 			\begin{center}
+				\includegraphics[width=\textwidth,scale=0.5]{Graphics/2.1.1.png}
+			\end{center}
+       		\caption{\label{2.1.1}Nike's information}
+\end{figure}
+\newpage
+\subsection{History of Nike}
+\begin{itemize}
+    \item 1962\par
+    Bill Bowman, a graduate of the University of Oregon, and his alumnus Philip Knight jointly founded a company called blue ribbon sports, which specializes in sporting goods.
+    \item 1968\par
+    The Cortez running shoes designed by Baumann had become the best-selling running shoes of the year.
+    \item 1972\par
+    The blue ribbon company changed its name to Nike, and began to create its own legend. \par
+    Nike's first patented product, air cushion, officially came out.
+    \item 2019\par
+    Nike used the slogan "just do it" to deal with global climate change. Nike released the move to zero plan with the purpose of "zero carbon emission and zero waste", which aims to protect our common home earth and create a better future for sports.
+    \item 2021\par
+    A statement issued by H &amp; M on "stopping the use of Xinjiang cotton" has aroused dissatisfaction among Chinese netizens. In fact, there are many foreign enterprises that have made comments on "cutting" cotton in Xinjiang in the past two years, which Including BCI member Nike, etc.
+\end{itemize}
+%\ Overview
+
+\section{Value chain analysis}
+Value chain will be used to analysis the internal environment of Nike. Using the analysis method of value chain could help Nike find out which activities or services add value to gain maximum profit and find the core competitiveness, which requires enterprises to pay close attention to the resource status of the organization and pay special attention to and cultivate the core competitiveness in the key links of value chain. Value chain is roughly divided into two parts which are primary activity and supporting activity. Primary activity includes Inbound Logistics, Operations, Outbound logistics, Marketing and Service while supporting activity consists of Technology, HRM, Procurement and Firm Infrastructure. Details will be introduced below.
+ \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=100mm,scale=0.5]{Graphics/2.2Nike value chain analysis.jpg} 
+			\end{center}
+       		\caption{\label{2.2}Nike value chain analysis}
+ \end{figure}
+\subsection{Primary activity}
+\subsubsection{The Inbound Logistics}
+Nike’s supply chain includes suppliers, transport, internal delivery, quality check and services. Nike is seriously focusing on making its supply chain more sustainable. Currently, Nike is supplied by 127 footwear factories in 15 nations and 363 apparel factories in 39 nations. After strict quality examination, Nike‘s products sourced from these suppliers are sent to various markets through the regional offices and distribution centers.
+\subsubsection{Operations}
+Nike’s operations include manufacturing, assembling, packing, and testing the products, but also cover equipment repairment and maintenance. Nike's headquarters are at Oregon in North America and the brand is present globally and each of its offices caters to large geographical areas of several countries such as Europe, Middle East, Africa, Greater China, Asia Pacific and Latin America. Nike’s standardized operation in manufacturing, assembling, packing, and testing the products improves productivity and efficiency.
+\subsubsection{Outbound logistics}
+Outbound logistics in the Nike include activities to store and distribute the products to customers. The products from More than 550 factories in 42 countries are shipped to the Nike Distribution centers and then to retail stores for sales. Nike has used a chain of regional distribution centers to service its retail stores which reduces the waiting period for the customers after a new product's release. An efficient distribution system also leads to timely deliveries and shipments. Nike has been able to manage a fast and smart delivery chain.
+ \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=100mm,scale=0.5]{Graphics/2.2.1.3 sales chain of Nike.png}
+			\end{center}
+       		\caption{\label{2.2.1.3}Sales chain of Nike}
+ \end{figure}
+\subsubsection{Marketing and sales}
+Nike's marketing and sales activities are based on salesforce, promotional activities, advertising, pricing, and channel selection. Nike invests heavily in its marketing that marketing expenses for 2020 were as high as €167.92, despite a year-on-year decrease of 16.9\% due to the pandemic. Nike uses effective marketing activities employing all marketing channels, including television, physical marketing, paper, and social media. Nike uses sportspeople and stars for brand promotion and product endorsement. Nike mainly utilizes two sales channels--physical and online. Its own stores including in-line and factory retail stores and its websites and mobile sales channels sell to the customers directly. Nike has also used a mix of independent distributors, licensees and sales representatives globally for sales.
+ \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=100mm,scale=0.5]{Graphics/2.2.1.4 market spending of Nike.jpg}
+			\end{center}
+       		\caption{\label{2.2.1.4}Market spending of Nike}
+ \end{figure}
+\subsubsection{Service}
+Pre-sales and after-sales services play an essential role in customer retention and a better consumer experience. The result is a broad base of loyal customers. Nike also runs many programs to keep its customers engaged. For example, Nike's loyalty program had more than 100 million customers registered. Customer signing up for a membership is also a part of the services. For example, when we are shopping in Nike, the salesmen always recommend us to register as a Nike member, and Nike will give corresponding rewards according to the level and points of the member, which is also conducive to strengthening customer loyalty. Nike keeps its fan base connected and engaged through follow-up emails as well.
+\subsection{Supporting activity}
+\subsubsection{Technology}
+Nike's production strategy has innovative technology at its core. Nike has retained its focus on great quality and sustainability. Nike's R&D investment took up more than 10\% in 2020. According to Morgan Stanley, Nike's \& D investment has averaged 1.7 billion yuan annually in the past five years. Its use of technological solutions has helped it improve the quality of its products continuously and minimize its impact on the environment.
+\subsubsection{HRM}
+Globally, Nike employs more than 70,000 people. The company provides a healthy environment for working and helps the employees to use their talents and identify with the company culture of diversity and inclusion. Rewards programs for employees are another incentive for employees to stay with the company. 
+\subsubsection{Procurement}
+For Nike, its entire procurement team is dedicated to the analysis and evaluation of eligible suppliers. They select the suppliers with the best quality material at the optimum cost and those who believe in the same principles of sustainability and environmental safety.
+\subsubsection{Firm Infrastructure}
+Firm infrastructure activities allow Nike to optimize the complete chain, including quality management, legal matters handling, financing, accounting, planning, and strategic management. Nike, for example, has invested extremely high R&D and marketing costs in its financial strategy. Firm infrastructure activities allow Nike to provide efficiency, cut overhead costs, and keep the overall working of the system in check.
+%\ Value chain
+\section{SWOT analysis}
+We’ll be conducting a SWOT analysis of Nike, where we look at the Strengths, Weaknesses, Opportunities, and Threats influencing their business. That will give us a balanced insight into Nike’s future possibilities, and help us better understand their current and future business decisions.
+ \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=100mm,scale=0.5]{Graphics/2.3.5 SWOT analysis of Nike.png}
+			\end{center}
+       		\caption{\label{2.3.5}SWOT analysis of Nike}
+ \end{figure}
+\subsection{Strength}
+\subsubsection{Strong Brand Image}
+Brand is one of the important parts that can enhance the premium space and reduce the operating cost of enterprises. Nike is considered the largest household brand worldwide. According to Brand Finance, Nike tops the list of the world’s 50 most Valuable fashion brands for 2021, with a Brand value of \$30.443 billion. “Just do it” is one of the powerful status symbols in industry and social circles. It reflects the characteristics of individuation in Nike's corporate culture, whether it is work, life or sports, just do it. Brand core value is the main part of brand equity, which enables consumers to clearly identify and remember brand characteristics, so as to earn more profits for enterprises.
+ \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=50mm,scale=0.5]{Graphics/2.3.1.1.rank of most valuable brands in 2021.jpg}
+			\end{center}
+       		\caption{\label{2.3.1.1}Rank of most valuable brands in 2021}
+ \end{figure}
+\subsubsection{Superior Marketing Capabilities}
+Nike has excellent marketing campaigns, which also further strengthen the brand awareness. Nike uses effective marketing activities employing all marketing channels, including television, physical marketing, paper, and social media. The brand heavily relies on demand generation expense. In the fiscal year 2019 and 2020, Nike spent \$3.7 billion and \$3.5 billion respectively. The brand has successfully utilized social media and marketing campaigns to target more customers.
+\subsubsection{Low Manufacturing Cost}
+Nike doesn't have its own factories, it's not tied down to factories and workers and that allows Nike to be a lean organization. Nike will outsource production wherever it can produce high quality products at the lowest cost, and if local production costs rise Nike will outsource production elsewhere where it is cheaper. Most of Nike’s footwear is manufactured in foreign countries. In the fiscal year 2020, Vietnam produced 50\%, China produced 22\%, and Indonesia produced 24\% of total Nike’s footwear. Other operations are in Argentina, Brazil, India, Italy, and Mexico.
+\subsubsection{Huge Customer base}
+Nike has millions of customers from around the world who loyally follow Nike’s trends, buy its latest products, participate in Nike events, and even provide customer feedback. Due to its huge customer base, Nike’s market cap has grown to \$224 billion as of May 2021.
+\subsubsection{Strong Research and Development}
+Nike's production strategy has innovative technology at its core which has retained its focus on great quality and sustainability. Nike's R&D investment took up more than 10\% in 2020. Nike has many successful high-tech running shoes such as Nike Adapt BB which can be adjusted via a smartphone and automatically adjusted as the athlete moves through the shoe's sensor system.
+\subsection{Weakness}
+
+\paragraph{Labor Controversies}
+Nike has mostly outsourced its manufacturing facilities to developing countries, in order to keep its operating costs low. In the last 20 years, Nike has been consistently targeted regarding their poor labor conditions. These issues include forced labor, child labor, low wages, and horrific working conditions that were deemed “unsafe”. According to a report issued by San Francisco-based Global Exchange, Nike workers are forced to work excessive hours in high-pressure work environments, while not earning enough to fulfil basic needs.
+\paragraph{Dependency on US Market}
+Even after having established itself globally, Nike still relies on the U.S Market in terms of sales and revenue. In the fiscal year 2020, about 41\% of Nike’s sales came from the U.S, while the rest of 59\% came globally. Despite its fame, Nike depends on the U.S for substantial sales and growth.
+\paragraph{Over-reliance on Third-party Retailers}
+Nike has over-reliance on third-party retailers to deliver products to the end consumers. This dependence on other organizations may force Nike to give up some portions of its profits or incur extra costs to get along with them. The retailers get upper margin cuts. Almost 65\% of Nike products are sold to customers through third-party retailers.
+ \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=100mm,scale=0.5]{Graphics/2.3.2.3propotion of retailor profit.jpg}
+			\end{center}
+       		\caption{\label{2.3.2.3}Propotion of retailor profit}
+ \end{figure}
+\paragraph{Pending Debts}
+Although Nike’s income statements prove to be prosperous, however, Nike is still facing financial threats. Nike‘s debt gearing in 2021 is up to 73.74\%, which is much higher than the industry average. A high gearing ratio is indicative of a great deal of leverage, where a company is using debt to pay for its continuing operations. In a business downturn, such companies may have trouble meeting their debt repayment schedules, and could risk bankruptcy.
+%未完成
+\subsection{Opportunity}
+
+\paragraph{Emerging Markets}
+Although Nike already has a presence in many countries, there is still plenty of opportunities for Nike. This is because emerging markets like India, China, and Brazil are gradually flourishing. Shand & Tanchua states that capturing an emerging market with newly affluent consumers can be a game-changer for Nike, due to its recognition as a premium market brand.   
+ \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=100mm,scale=0.5]{Graphics/2.3.3.1Nike sales distribution.png}
+			\end{center}
+       		\caption{\label{2.3.3.1}Nike sales distribution}
+ \end{figure}
+\paragraph{Innovative Products}
+With the development of economy and the improvement of people's living standard, people pay more and more attention to health, comfort and fashion. Although Nike has produced many products, there is still a lot to innovate. Nike has extended its reach in technology in association with fitness and health. Combining technology with athletic wear can prove to be beneficial as it is an aspect of the fashion industry that still hasn’t been explored much.
+\paragraph{Growing Digital Trends}
+Due to the COVID-19 pandemic, in-stores sales have observed a significant decline, as most of the countries faced lockdowns or travel restrictions. In such conditions, the trend of sales through online mediums has increased. According to UNCTAD (2021), pandemic increased the online sales share among total retail sales from 16\% to 19\% in 2020. In addition, since Nike has a successful online business, it can create more AR/VR-related products.
+\subsection{Threats}
+\paragraph{Counterfeit Products}
+Counterfeit products can significantly affect the revenue and reputation of Nike, especially in developing countries with poor legal protection for patents. The company deals globally and the risk of counterfeit products has become higher. A number of merchandisers and retailers offer counterfeit Nike products at lower prices. The low-priced products are made from low-quality materials but still have the Nike label. This can tarnish the image of the brand.
+\paragraph{Increased competitive pressure}
+Although, Nike is a dominating the athletic industry, competition, and new emerging brands are still potential threats to the company. With higher competition ratio, Nike has to spend more money on marketing and advertising. Nike spent \$3.5 Billion specifically on marketing and demand generation in fiscal year 2020. 
+\paragraph{Economic Uncertainty}
+All companies are susceptible to the negative effects of a global recession, especially for luxury brand like Nike. At the height of the epidemic, Nike has registered a 38\% decline in sales in Q2 of 2020. The global epidemic continues now.
+ \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=100mm,scale=0.5]{Graphics/2.3.4.3The impact of the epidemic on Nike sales.jpg}
+			\end{center}
+       		\caption{\label{2.3.4.3}The impact of the epidemic on Nike sales}
+ \end{figure}
+\subsection{Discussion} 
+As a whole, Nike is a leading premium footwear and apparel brand with a global presence which has a lot of strengths and has created a huge customer base by emerging into people’s favorite sport/shoe brand, there are still quite a few places where Nike needs to up its game to continue being successful in the future as well. When making strategies, we can use SWOT by combining Nike's strength and weakness with its opportunity and threat. In this way, we may convert the weakness and strength into threat and opportunities. For example, Nike depends on US market to much while growing digital trends have given it a chance to enlarge the global market (WO). In addition, Nike can reinforce its low manufacturing cost and marketing capabilities to reduce the increasing competitive pressure (ST). Furthermore, Strong brand repute and premium branding are some of the key strengths of Nike, which can be leveraged to capture market shares of the developing countries, such as India and China (SW). Last but not least, in the pandemic, Nike can manage to support its sales through digital means (TO). More detail information will be given in the following strategy part.
+
+\section{Financial analysis}
+We’ve chosen financial data of Nike inc. from 2012 to 2021, especially the last three years in details, trying to discuss the overall profitability, liquidity as well as some representative activity ratios of it by analysing the intrinsic relationship of them. 
+Most of the statistics are from the official website and financial reports of the company, as well as some open market research materials, and the references are noted at the end of this report.
+
+\subsection{Overview}
+A financial summary from the investor’s website - For the six months ended 30 November 2021, Nike Inc revenues increased 8\% to \$23.61B. Net income increased 16\%to \$3.21B. Revenues reflect Comparable Store Sales (Growth-\%), NA increase from -11 to 49\%. Net income benefited from Merchandise Margins, Total - \% increase of 7\% to 46.2\%,Other (income) expense, net increase from \$14M to \$141M(income). Dividend per share increased from \$0.49 to \$0.55.\par
+As we can see here, the average share price of Nike is quite smooth in the 2010s, and has become much steeper recently, which shows that the company is stepping into its maturity life period. In this period, Nike can enjoy a relatively high revenue and a mild growth rate. Many of its products are being transformed into cash cows, which is a concept in BCG matrix. \par
+It can be showed that the business stage Nike inc. is on according to the firm cycle theory now is, maturity, because of the high income as well as the returns on the financial market. The deduction will be verified in the following paragraph of this section.\par
+
+ \begin{figure}[htbp]
+     \centering
+     \begin{minipage}{.45\linewidth}
+     \centering
+     \includegraphics[width=60mm]{Graphics/2.4.1.1.png}
+     \caption{\label{2.4.1.1}Business lifecycle}
+     \end{minipage}
+     \qquad
+     \begin{minipage}{.45\linewidth}
+     \centering
+     \includegraphics[width=60mm,scale=0.5]{Graphics/2.4.1.2.png}
+     \caption{\label{2.4.1.2}Average share price of Nike}
+     \end{minipage}
+ \end{figure}
+\subsubsection{Theory complement – Life cycle of dividend and the matched target}\par
+The firm life cycle theory of dividends is based on the notion that as a firm becomes mature, its ability to generate cash overtakes its ability to find profitable investment opportunities. Eventually, it becomes optimal for the firm to distribute its free cash flow to shareholders in the form of dividends. \par
+According to the firm life cycle theory of dividends, a young firm faces a relatively large investment opportunity set, but is not sufficiently profitable to be able to meet all its financing needs through internally-generated cash. In addition, it faces substantial hurdles in raising capital from external sources. \par
+As a result, the firm will conserve cash by forgoing dividend payments to shareholders. Over time, after a period of growth, the firm reaches a stage of maturity in its life cycle. At this point, the firm’s investment opportunity set is diminished, its growth and profitability have flattened, systematic risk has declined, and the firm generates more cash internally than it can profitably invest. Eventually, the firm begins dividend payments in order to distribute its earnings to shareholders. The extent to which a mature firm distributes earnings to shareholders instead of investing them internally will be a function of the extent to which the interests of its managers are aligned with those of its shareholders.\par
+Thus, this is an internal logic to understand why Nike inc.’s share price has risen sharply in recent years, especially the last three. And it can be reconfirmed that now, Nike is at its maturity period.\par
+When the business matures, sales begin to decrease slowly. Profit margins get thinner, while cash flow stays relatively stagnant. As firms approach maturity, major capital spending is largely behind the business, and therefore cash generation is higher than the profit on the income statement.\par
+However, it’s important to note that many businesses extend their business life cycle during this phase by reinventing themselves and investing in new technologies and emerging markets. This allows companies to reposition themselves in their dynamic industries and refresh their growth in the marketplace. \par
+And if Nike inc. doesn’t follow this route to gain a longer maturity life, it will fall to decline very soon, as the graph showed above.\par
+So, an elementary conclusion can be drawn according to thesis aforementioned: Nike need to reposition itself and maintain a relatively stable financial ratios, which is also the central concept of this whole chapter.
+\subsection{Statistics of the industry}
+The industry Nike inc. locates in now is Apparel, Footwear & Accessories, which is vast, comprising many product categories, ranging from basic to luxury options. The market can be unpredictable and subject to changes in design, consumer demand, and shifting retail strategies. In recent years, there have also been changes in the dynamics of the clothing manufacturing industry, with many companies choosing to outsource production to cheaper locations across the world. As a result, countries such as China, Bangladesh, Turkey, India, and Cambodia, now rank as the leading exporters of clothing.\par
+Despite the current global economic downturn, there has been increased demand in some segments of the apparel market. Specifically, the increased demand for leisure and sportswear throughout the pandemic has aided the industry. The market for second-hand apparel is also expanding, as consumers are becoming more conscious of their environmental footprint and making more sustainable purchases.\par
+The data we chosen for the industry contains more than 50 giants in globe, as showed below.[\ref{2.3}]
+
+%表格
+\begin{center}
+\tablefirsthead{%
+\hline
+\multicolumn{1}{|c}{\tbsp Company} &
+\multicolumn{1}{c}{Marketcap} &
+Revenues (TTM) &
+\multicolumn{1}{c|}{Net Income (TTM)}&
+\multicolumn{1}{c}{Employees number}\\
+\hline}
+\tablehead{%
+\hline
+\multicolumn{4}{|l|}{\small\sl continued from previous page}\\
+\hline
+\multicolumn{1}{|c}{ Company} &
+\multicolumn{1}{c}{Marketcap} &
+Revenues (TTM) &
+\multicolumn{1}{c|}{Net Income (TTM)}&
+\multicolumn{1}{c}{Employees number} \\
+\hline}
+\tabletail{%
+\hline
+\multicolumn{4}{|r|}{\small\sl continued on next page (figures are  in millions)}\\
+\hline}
+\tablelasttail{\hline}
+\bottomcaption{Industry data}
+\tablefirsthead{%
+\hline
+\multicolumn{1}{|c}{\tbsp Company} &
+\multicolumn{1}{c}{Marketcap} &
+Revenues (TTM) &
+\multicolumn{1}{c|}{Net Income (TTM)}&
+\multicolumn{1}{c}{Employees number} \\
+\hline}
+\tablehead{%
+\hline
+\multicolumn{4}{|l|}{\small\sl continued from previous page}\\
+\hline
+\multicolumn{1}{|c}{ Company} &
+\multicolumn{1}{c}{Marketcap} &
+Revenues  &
+\multicolumn{1}{c|}{Net Income }&
+\multicolumn{1}{c}{Employees} \\
+\hline}
+\tabletail{%
+\hline
+\multicolumn{4}{|r|}{\small\sl continued on next page (figures are  in millions)}\\
+\hline}
+\tablelasttail{\hline}
+\bottomcaption{Industry data}
+\tablefirsthead{%
+\hline
+\multicolumn{1}{|c}{ Company} &
+\multicolumn{1}{c}{Marketcap} &
+Revenues  &
+\multicolumn{1}{c|}{Net Income }&
+\multicolumn{1}{c}{Employees} \\
+\hline}
+\tablehead{%
+\hline
+\multicolumn{4}{|l|}{\small\sl continued from previous page}\\
+\hline
+\multicolumn{1}{|c}{ Company} &
+\multicolumn{1}{c}{Marketcap} &
+Revenues  &
+\multicolumn{1}{c|}{Net Income }&
+\multicolumn{1}{c}{Employees} \\
+\hline}
+\tabletail{%
+\hline
+\multicolumn{4}{|r|}{\small\sl continued on next page (figures are  in millions)}\\
+\hline}
+\tablelasttail{\hline}
+\bottomcaption{\label{2.3}Industry data}
+\begin{supertabular}{|r@{\hspace{6.5mm}}|r@{\hspace{5.5mm}}|r|r||r}
+
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Nike Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 271,267}} & \multicolumn{1}{r}{\$ 46,192} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 6,083}} & \multicolumn{1}{r}{75,400} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Lululemon Athletica Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 52,206}} & \multicolumn{1}{r}{\$ 5,857} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 871}} & \multicolumn{1}{r}{11,000} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{V F Corporation}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 28,842}} & \multicolumn{1}{r}{\$ 10,947} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 1,225}} & \multicolumn{1}{r}{48,000} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Tapestry Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 11,576}} & \multicolumn{1}{r}{\$ 6,055} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 829}} & \multicolumn{1}{r}{17,300} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Levi Strauss and Co}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 10,340}} & \multicolumn{1}{r}{\$ 5,465} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 457}} & \multicolumn{1}{r}{-} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Deckers Outdoor Corp}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 10,206}} & \multicolumn{1}{r}{\$ 2,866} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 994}} & \multicolumn{1}{r}{3,500} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Capri Holdings Ltd}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 9,872}} & \multicolumn{1}{r}{\$ 5,052} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 415}} & \multicolumn{1}{r}{-} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Ralph Lauren Corporation}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 8,879}} & \multicolumn{1}{r}{\$ 5,600} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 404}} & \multicolumn{1}{r}{24,900} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Gildan Activewear Inc.}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 8,660}} & \multicolumn{1}{r}{\$ 2,824} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 260}} & \multicolumn{1}{r}{-} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Under Armour Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 8,516}} & \multicolumn{1}{r}{\$ 5,558} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 435}} & \multicolumn{1}{r}{16,400} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Crocs inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 8,229}} & \multicolumn{1}{r}{\$ 2,138} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 754}} & \multicolumn{1}{r}{5,400} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Pvh Corp}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 7,640}} & \multicolumn{1}{r}{\$ 8,815} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 503}} & \multicolumn{1}{r}{40,000} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Haha Generation Corp}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 7,619}} & \multicolumn{1}{r}{-} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 0}} & \multicolumn{1}{r}{1} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Skechers Usa Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 6,887}} & \multicolumn{1}{r}{\$ 5,962} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 471}} & \multicolumn{1}{r}{9,200} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Columbia Sportswear Company}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 6,450}} & \multicolumn{1}{r}{\$ 2,912} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 136}} & \multicolumn{1}{r}{5,978} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Figs Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 5,246}} & \multicolumn{1}{r}{-} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 0}} & \multicolumn{1}{r}{-} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Carter s Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 4,469}} & \multicolumn{1}{r}{\$ 6,389} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 342}} & \multicolumn{1}{r}{16,800} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Steven Madden Ltd}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 3,737}} & \multicolumn{1}{r}{\$ 1,641} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 150}} & \multicolumn{1}{r}{3,578} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Kontoor Brands Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 3,060}} & \multicolumn{1}{r}{\$ 2,456} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 195}} & \multicolumn{1}{r}{-} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Albany International Corp}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 2,891}} & \multicolumn{1}{r}{\$ 916} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 118}} & \multicolumn{1}{r}{3,900} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Oxford Industries inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 1,701}} & \multicolumn{1}{r}{\$ 1,064} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 94}} & \multicolumn{1}{r}{5,500} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Guess Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 1,567}} & \multicolumn{1}{r}{\$ 2,489} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 378}} & \multicolumn{1}{r}{13,500} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{G Iii Apparel Group Ltd}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 1,367}} & \multicolumn{1}{r}{\$ 3,607} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 287}} & \multicolumn{1}{r}{7,693} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Fossil Group inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 1,333}} & \multicolumn{1}{r}{\$ 1,794} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 3}} & \multicolumn{1}{r}{-} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Movado Group Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 991}} & \multicolumn{1}{r}{\$ 899} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 245}} & \multicolumn{1}{r}{1,100} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Caleres inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 885}} & \multicolumn{1}{r}{\$ 2,669} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 26}} & \multicolumn{1}{r}{11,000} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Superior Group Of Companies Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 356}} & \multicolumn{1}{r}{\$ 540} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 36}} & \multicolumn{1}{r}{1,278} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Global Fiber Technologies Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 312}} & \multicolumn{1}{r}{\$ 0} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textcolor[rgb]{ 1,  0,  0}{\textbf{\$ -2}}} & \multicolumn{1}{r}{-} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Rocky Brands Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 295}} & \multicolumn{1}{r}{\$ 432} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 18}} & \multicolumn{1}{r}{2,447} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Vera Bradley Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 292}} & \multicolumn{1}{r}{\$ 560} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 28}} & \multicolumn{1}{r}{2,950} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{J jill Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 264}} & \multicolumn{1}{r}{\$ 566} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textcolor[rgb]{ 1,  0,  0}{\textbf{\$ -59}}} & \multicolumn{1}{r}{-} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Weyco Group Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 225}} & \multicolumn{1}{r}{\$ 228} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 15}} & \multicolumn{1}{r}{662} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Delta Apparel Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 203}} & \multicolumn{1}{r}{\$ 437} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 20}} & \multicolumn{1}{r}{7,400} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Culp Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 111}} & \multicolumn{1}{r}{\$ 316} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 7}} & \multicolumn{1}{r}{-} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Iconix Brand Group Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 100}} & \multicolumn{1}{r}{\$ 104} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 25}} & \multicolumn{1}{r}{137} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{The Crypto Company}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 87}} & \multicolumn{1}{r}{\$ 0} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 0}} & \multicolumn{1}{r}{-} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Jerash Holdings us Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 74}} & \multicolumn{1}{r}{\$ 120} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 7}} & \multicolumn{1}{r}{-} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Tandy Leather Factory Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 44}} & \multicolumn{1}{r}{\$ 69} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textcolor[rgb]{ 1,  0,  0}{\textbf{\$ -2}}} & \multicolumn{1}{r}{-} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Ever glory International Group Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 34}} & \multicolumn{1}{r}{\$ 363} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textcolor[rgb]{ 1,  0,  0}{\textbf{\$ -1}}} & \multicolumn{1}{r}{8,300} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Innovative Designs Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 11}} & \multicolumn{1}{r}{\$ 0} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 0}} & \multicolumn{1}{r}{5} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Sequential Brands Group Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 10}} & \multicolumn{1}{r}{\$ 80} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textcolor[rgb]{ 1,  0,  0}{\textbf{\$ -88}}} & \multicolumn{1}{r}{161} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Kbs Fashion Group Ltd}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 8}} & \multicolumn{1}{r}{\$ 11} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textcolor[rgb]{ 1,  0,  0}{\textbf{\$ -6}}} & \multicolumn{1}{r}{-} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Uniroyal Global Engineered Products Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 5}} & \multicolumn{1}{r}{\$ 73} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 6}} & \multicolumn{1}{r}{415} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{J Crew Group Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{-}} & \multicolumn{1}{r}{\$ 2,527} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textcolor[rgb]{ 1,  0,  0}{\textbf{\$ -160}}} & \multicolumn{1}{r}{15,300} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Centric Brands Inc.}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{-}} & \multicolumn{1}{r}{\$ 2,147} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textcolor[rgb]{ 1,  0,  0}{\textbf{\$ -274}}} & \multicolumn{1}{r}{588} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Nami Corp}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{-}} & \multicolumn{1}{r}{-} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textcolor[rgb]{ 1,  0,  0}{\textbf{\$ -1}}} & \multicolumn{1}{r}{1} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Nine Alliance Science and Technology Group}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{-}} & \multicolumn{1}{r}{\$ 0} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 0}} & \multicolumn{1}{r}{1} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Wolverine World Wide Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{-}} & \multicolumn{1}{r}{\$ 2,289} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textcolor[rgb]{ 1,  0,  0}{\textbf{\$ -89}}} & \multicolumn{1}{r}{6,550} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Adveco Group Inc.}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{-}} & \multicolumn{1}{r}{\$ 3} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textcolor[rgb]{ 1,  0,  0}{\textbf{\$ -7}}} & \multicolumn{1}{r}{-} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Vado Corp}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{-}} & \multicolumn{1}{r}{-} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 0}} & \multicolumn{1}{r}{-} \\
+    \multicolumn{1}{p{8.355em}}{\textcolor[rgb]{ .02,  .388,  .757}{Silo Pharma Inc}} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{-}} & \multicolumn{1}{r}{\$ 0} & \multicolumn{1}{r}{\cellcolor[rgb]{ .914,  .918,  .945}\textbf{\$ 6}} & \multicolumn{1}{r}{-} \\
+    \midrule
+\end{supertabular}
+\end{center}
+\subsection{Profitability}
+Profitability is one of four building blocks for analysing financial statements and company performance as a whole. The two key aspects of profitability are revenues and expenses. Revenues are the business income. This is the amount of money earned from customers by selling products or providing services. Businesses must use their resources in order to produce these products and provide these services. So, the two major ratio to represent profitability of Nike are, Gross margin and ROE.
+ \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=100mm,scale=0.5]{Graphics/2.4.3.png} 
+			\end{center}
+       		\caption{\label{2.4.3.2}Gross margin graph of Nike}
+ \end{figure}\par
+ As it is showed above, the margin curve of Nike isn’t smooth before 2017, and has fluctuated much milder after that year, which reinforce our deduction that the company is at the maturity stage. \par
+\fbox{\textbf{UPDATED}}\par As of January 1, 2022, Price to Sales Ratio is expected to decline to 4.23. In addition to that, Return on Sales is expected to decline to 0.13. Nike Operating Income is projected to increase significantly based on the last few years of reporting. The past year's Operating Income was at 6.92 Billion. The current year Income Tax Expense is expected to grow to about 1 B, whereas Consolidated Income is forecasted to decline to about 4.9 B.\par
+\paragraph{Horizontal analysis}It can be seen that gross margin of Nike is lower than the industry yet its operating margin and net margin are both higher, that means, nike did a very good job in the management of its fees and administration costs.[\ref{2.4.3 margins}] Furthermore, ROE of nike is far ahead than the industry and its competitors, which is good news to its shareholders and creditors.[\ref{2.4.3.6}]
+\begin{figure}[!htbp]
+     \centering
+     \includegraphics[width=0.3\textwidth]{Graphics/2.4.3.3.png}
+     \qquad
+     \includegraphics[width=0.3\textwidth]{Graphics/2.4.3.4.png}     
+     \qquad
+     \includegraphics[width=0.3\textwidth]{Graphics/2.4.3.5.png}
+     \caption{\label{2.4.3 margins}Margin comparisons}
+ \end{figure}
+ \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=80mm,scale=0.5]{Graphics/2.4.3.6.png} 
+			\end{center}
+       		\caption{\label{2.4.3.6}ROE comparisons}
+ \end{figure}\par
+\subsection{Liquidity}
+Liquidity is also a very important reference to analyse Nike inc., and here is a brief comparison, including quick ratio and current ratio with the industry standard and a main competitor, adidas. Quick ratio is higher for nike than the industry and competitors[\ref{2.4.4.1}], albeit current ratio level of them are very similar[\ref{2.4.4.2}]. That means, the inventory level of nike is very low and the stability of this company can be very reliable. That may have relationship with the great performance Nike showed during the pandemic period.\par
+ \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=\textwidth,scale=0.5]{Graphics/2.4.4.1.png} 
+			\end{center}
+       		\caption{\label{2.4.4.1}Quick ratio comparison}
+ \end{figure}
+ \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=80mm,scale=0.5]{Graphics/2.4.4.2.png} 
+			\end{center}
+       		\caption{\label{2.4.4.2}Current ratio comparison}
+ \end{figure}
+
+\subsection{Activity ratios}
+There are not sharp fluctuation in the recent three years of the turnovers except receivable turnover in 2020, which can be also assumed to be affected by the Covid-19 crisis.[\ref{2.4.5.1}] Yet, the payables period did not change much.[\ref{2.4.5.2}] Which means that nike shortened the credit sales maturity from its customers, yet still manage to maintain the same account payable period against its suppliers. Just like the famous meme, buff doge versus cheems.[\ref{2.4.5.0}]Here is buff doge which is nike with a high bargin power and can change accounts receivables or payables freely and, here is cheems, means suppliers and customers of the nike, and very week and poor as you can see. In the cycles chart, we can see that both operating and cash conversion cycle of nike has a plummet in 2020 but immediately reach the same level as the prepandemic era this year, which means it has recovered from that disaster very quickly.[\ref{2.4.5.3}] So, as the opinion of us aforementioned, the key to nike is stability.
+  \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=100mm,scale=0.5]{Graphics/Bargin power.jpg}
+			\end{center}
+       		\caption{\label{2.4.5.0}Buff doge versus cheems Nike version}
+ \end{figure}
+ \begin{figure}[p]
+ 			\begin{center}
+				\includegraphics[width=80mm,scale=0.5]{Graphics/2.4.5.1.png} 
+			\end{center}
+       		\caption{\label{2.4.5.1}Turnovers ratio}
+ \end{figure}
+  \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=80mm,scale=0.5]{Graphics/2.4.5.2.png} 
+			\end{center}
+       		\caption{\label{2.4.5.2}Periods ratio}
+ \end{figure}
+  \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=80mm,scale=0.5]{Graphics/2.4.5.3.png} 
+			\end{center}
+       		\caption{\label{2.4.5.3}Cycles ratio}
+ \end{figure}
+\section{Corporate level strategy}
+
+\subsection{Introduction}
+From the analysis and introduction of Nike's financial situation, Nike's revenue in 2021 achieved a high growth of 19\% compared with 2020, which shows that Nike is recovering from the impact of the pandemic rapidly. At the same time, the global apparel market is also in continuous growth after the pandemic. As the market leader, Nike also has healthy cash flow and sufficient R \& D force, so it should adopt a growth strategy at present. Therefore, this part is divided into 3 sections. The first section uses the BCG matrix to analyze the existing products and markets of Nike, then the second section uses the Ansoff matrix to analyze the growth strategy that Nike should adopt, and the last section is a brief analysis of the globalization strategy of Nike.
+\subsection{Business portfolio analysis}
+
+\subsubsection{BCG Matrix model explanation}
+Boston matrix is a method of planning enterprise product portfolio initiated by Boston Consulting Group, which can help enterprises analyze and evaluate existing product lines, utilize existing resources of enterprises to effectively allocate products, and then determine the direction of business development to expand enterprise revenue.
+\subsubsection{Analysis process}
+For the existing products of Nike, it can be divided into 2 dimensions and discussed by applying the BCG matrix.
+%图
+ \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=100mm,scale=0.5]{Graphics/2.5.2.1 Nike revenue by Region.jpg}
+			\end{center}
+       		\caption{\label{2.5.2.1.1}Nike revenue by Region}
+ \end{figure}
+\paragraph{The first dimension}
+The first dimension is based on the performance of all Nike products in different markets in the world. According to Nike's financial statements in 2020, we can see that among Nike's revenue in 2020, the NA (North American) market contributed 14,484 million, accounting for the highest proportion, reaching 41\%. Then, the EMEA (Europe, Middle  East \& Africa) market contributed 9,347 million, accounting for 26\%. Then, the Greater China market contributed 6,679 million, accounting for 19\%. Finally, the APLA (Asia Pacific & Latin America) markets accounted for 14\%. Compared with the data in 2019 and 2018, the Greater China region led all the markets in terms of growth at 11\% and 24\%, followed by the APLA markets at 1\% and 13\%, while the NA and EMEA markets grew slowly. Overall, it can be concluded that Nike's products are stars in Greater China, cash cows in NA and EMEA, and question marks in APLA. 
+ \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=100mm,scale=0.5]{Graphics/2.5.2.1 BCG matrix of Nike products' performance in different markets.jpg} 
+			\end{center}
+       		\caption{\label{2.5.2.1.2}BCG matrix of Nike products' performance in different markets}
+ \end{figure}
+In the future business development of Nike, in the face of product sales in the Greater China market, we can adopt a growth strategy, that is, through more frequent product development and innovation to improve consumer willingness to purchase. And to increase the market share In the NA market and the EMEA market, Nike can adopt a stable strategy to maintain the current product research and development speed and sales means remain basically unchanged. In the face of product sales in the APLA, Nike should adopt an uncertain strategy and fully try a series of means including product development and marketing expansion to further maintain and improve the market growth.
+\paragraph{The second dimension}
+The second dimension is to divide Nike's products by product line. According to the financial statements of Nike in 2020, among the revenue of Nike in 2020, footwear contributed 23,305 million, accounting for the highest proportion, reaching 66\%, followed by apparel contributed 10,953 million, accounting for 31\%, and finally equipment contributed only 1,280 million, accounting for 3\%. Looking at the growth rate, compared with 2019 and 2018, footwear has the fastest growth rate of -2\% and 12\% among all products, followed by apparel with -3\% and 11\%, and finally equipment with 6\% and 4\% Therefore, it can be judged that footwear is Nike's cash cow, apparel is Nike's star, and equipment is the dogs. \par
+\begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=100mm,scale=0.5]{Graphics/2.5.2.2 Nike revenue by Product line.jpg} 
+			\end{center}
+       		\caption{\label{2.5.2.2.1}Nike revenue by Product line}
+ \end{figure}
+In the future business development of Nike, they can adopt a growth strategy for the apparel category, develop more innovative apparel products and strengthen the marketing of apparel products. For footwear products, Nike can adopt a stability strategy that maintain the current research and development and sales methods of products basically unchanged. In the face of the equipment products, cost saving strategy could be adopted, which is to reduce the  investment, sell or shut down some projects that are unable to make profits for Nike.
+\begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=100mm,scale=0.5]{Graphics/2.5.2.2 BCG matrix of Nike products' performance in different product lines.jpg}
+			\end{center}
+       		\caption{\label{2.5.2.2.2}BCG matrix of Nike products' performance in different product lines}
+ \end{figure}
+\subsubsection{Brief summary}
+If an enterprise wants to be successful, the common practice should be to increase investment and exploration on question marks, make them into stars, and then continue to operate stars to make them into cash cows, so as to provide sufficient and stable cash flow for the enterprise. \par
+However, when the cash cows are inevitably declining and are about to become the dog product, it is necessary to carry out secondary innovation on the products, so that they can be converted into question marks, then finally achieve sustainable development. Meanwhile, it is necessary to pay attention to the resources occupied by dogs, sell or close them decisively when necessary.\par
+In terms of products performance in its sales area, Nike does not have dog products Therefore, Nike's Boston matrix is in the shape of a moon, which is a symbol of successful enterprises, means that the product structure of Nike is perfect. What Nike needs to do is to continue to increase its investment in the APLA market and the Greater China market, and cultivate them into the next stars and cash cows. For the NA and EMEA markets, it is necessary to pay attention to the changes in market performance at all times, Take measures in time to avoid them becoming dog products when they are in the downturn.\par
+In terms of product performance by product line, Nike has a star and a cash cow, which means that under the support of these businesses, Nike's profitability and cash flow performance will not be poor in the short term. However, Nike also has a dog, the equipment products, Nike needs to make prudent decisions. Maybe the equipment products can be converted into question marks through thorough reform, but if they can no longer create profits for Nike, Nike should sell or shut down it decisively. The lack of question marks indicates that Nike's product line may lack long-term growth potential, especially when the apparel products are converted into cash cow products, and the footwear products show sluggish or declining growth, Nike will not have new product lines to provide new growth points, and the overall growth of Nike will not be sustainable. Therefore, in addition to actively cultivating and maintaining apparel and footwear products, Nike's recent strategy should also strengthen its investment in exploration to actively seek and create question marks, which ensure the long-term growth of the company's performance.
+\subsection{Growth strategy analysis}
+Based on the above analysis, we can get a preliminary understanding of Nike's business portfolio. It can be seen that most of Nike's products are currently stars or cash cows. Stars need to take growth strategy to cultivate them into cash cows. Cash cows can also take appropriate growth measures to adapt to the overall growth of the market, which ensure their market share remains stable. Therefore, this section will analyse how Nike should choose its growth strategy.
+\subsubsection{Introduction}
+The analysis model I applied is Ansoff matrix, which takes product and market as the two basic aspects, distinguishes four product / market combinations and corresponding marketing strategies, and it is one of the most widely used marketing analysis tools.\par
+\begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=100mm,scale=0.5]{Graphics/2.5.3 The structure of Ansoff matrix.jpg}
+			\end{center}
+       		\caption{\label{2.5.3.1}The structure of Ansoff matrix}
+ \end{figure}
+It has four quadrants, corresponding to new products and existing products, and four combinations corresponding to new markets and existing markets, respectively Market Penetration，Product Development，Market Development and Diversification. In diversification, it can also be divided into related diversification and unrelated diversification.
+\subsubsection{Analysis process}
+\begin{enumerate}
+\item {Firstly, market penetration refers to the use of Nike's existing products to develop the existing market, expand the market share in the existing market by means of price reduction, increasing advertising and other promotional means, or improving the after-sales service quality of products, etc. Strategies such as cost leadership and differentiation can also be used to obtain more consumers from competitors.}
+\item {Then there is market development, which is to use Nike's existing products to meet the consumption needs of the new market. The ways including establish a new brand and new benchmark in the new market by changing the product positioning and marketing methods, so as to enter the new market. In the process of entering the new market, the core technology and core process of the product often don't need to be changed too much, so it can save a lot of research and development costs. However, it also requires the existence of users in the new market with the same needs as the original products.\par
+\begin{figure}[ht]
+ 			\begin{center}
+			\includegraphics[width=100mm,scale=0.5]{Graphics/2.5.3.2.jpg}
+			\end{center}
+       		\caption{\label{2.5.3.2}Analysis process.1  Product life cycle curve}
+ \end{figure}
+If the product life cycle model mentioned in the financial analysis is applied, market penetration and market development is equivalent to prolonging the time that the product at the highest point of its life cycle. At present, Nike has an extremely rich product line and a large number of products, most of its products have excellent performance and full creativity compared with competitors. Under the support of the existing large number of products, market penetration and market development are very important strategies for Nike, which can save a lot of research and development costs for Nike, while maintaining the overall indicator stable and positive. However, there will be a significant diminishing effect of marketing marginal utility in simply relying on marketing rather than updating products itself to expand share and open new markets. That is, with the increase of market share, more marketing expenses will be spent but the growth of revenue will decrease. Nike has many products that belong to stars or cash cows. The diminishing marginal effect of marketing of star products will become more prominent. And for the cash cow products, their market share has already reached the highest level, marketing to them will have only little effect. When a product eventually inevitably declines, the best way is still to create more successful new products, keeping the company continuously has products at the highest point of their life cycle, continuously contribute revenue for the company. Therefore, in general, Nike will not be able to maintain growth in the future if it focuses on above two strategies, but should consider the research and development of new products, that is, the following two strategies that based on the development of new products.}
+\item {The first is product extension, which is to provide innovative products for existing customers, or on the basis of existing customers, make use of creative innovation of existing products to compete with competitors in a differentiated way, so as to increase the share of new products in the existing market. The product extension strategy will fully develop the depth and breadth of existing products, so in most cases, it can attract more consumers than simply using marketing means. However, it can also raise the research and development costs and the uncertainty in the research and development process, so a good control of R & D cost is also very important. \par
+Nike should widely apply the product extension strategy to existing products to show consumers around the world that Nike dare to innovate, attract more consumers and further improve the market share.}
+\item {The last is diversification, diversification can be divided into related diversification and unrelated diversification. Related diversification refers to the development of different markets in the same field, including vertical diversification extending to the upstream and downstream of the industrial chain and horizontal diversification of expanding product types. For example, Nike enters the market of making swimwear from the production of apparel, this is a horizontal diversification of expanding product types. On the contrary, unrelated diversification is entering a completely unknown new market, such as Nike's enter the car building business.\par
+When analyzing Nike's products from the product line dimension in the first section of this chapter, we can find that Nike's product line lacks question marks in the BCG matrix, which will lead to the lack of long-term growth potential of Nike. Therefore, Nike can currently implement diversification strategies. In the exploration of diversification, Nike will be able to find new question marks, and then find the way  to cultivate them into stars and cash cows. According to the results of financial analysis, Nike currently needs to maintain business growth while maintaining the stability of various indicators, which means that relatively lower risk of related diversification is more suitable for Nike. In this way, Nike can leverage its existing strengths and capabilities in market share, marketing channels and R & D teams. At the same time, the similar materials of relevant products can achieve economies of scale, reduce the bargaining power of suppliers and customers, and share risks.}
+\end{enumerate}
+\subsubsection{Brief summary}
+Nike can adopt relevant diversification strategies for the current overall business portfolio, actively seek new question marks to ensure long-term growth of performance. For existing products, Nike can mainly use the product extension strategy to maintain and accelerate the current growth, and establish a corporate image of Nike's innovation and increase the favor of consumers. For question marks and stars in the early stage, Nike can properly use market penetration and market development strategies to save R & D costs.
+\subsection{Globalization strategy analysis}
+As a large multinational enterprise, Nike also has a large number of branches and subsidiaries in different countries that need to be managed. At this time, it is necessary to analyze Nike's globalization strategy. A company's globalization strategy includes these three methods，Ethnocentrism，Polycentrism and Geocentrism and Regiocentrism.
+\paragraph{Ethnocentrism}
+Ethnocentrism is to copy the company's strategy in its own country without any investigation and ignoring the differences between any countries. It is obviously impossible to fully copy Nike's strategy in the United States to other country.
+\paragraph{Polycentrism}
+Then there is polycentrism. In order to adapt to a country, the company may give its branches in that country high autonomy and allow its subsidiaries to carry out various business activities almost completely independently. However, this will have a serious impact on the company's economies of scale. Nike can't let each branch set up its own R &amp; D team and then find its own foundry, So polycentrism is also not a good idea.
+\paragraph{Geocentrism and Regiocentrism}
+The last is geocentrism and regiocentrism, which is a compromise and the most suitable solution for Nike. It not only recognizes the differences between different markets, but also finds and uses the most common points to save costs. For example, the model and process design of a new shoe can be completed by the R & D team of the headquarters, and the manufacturing of new shoes may be completed by a foundry from Southeast Asia, It will eventually be sent to greater China, but the branches in Greater China can formulate different marketing strategies from other branches according to the local market conditions, or suggest that the headquarters can add more Chinese elements in the design of patterns to increase the purchase volume of Chinese consumers.
+\begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=100mm,scale=0.5]{Graphics/2.5.4.3Nike Greater China president's view on Nike's localization in China.jpg}
+			\end{center}
+       		\caption{\label{2.5.4.3}Nike Greater China president's view on Nike's localization in China}
+ \end{figure}
+\subsection{Corporate Strategy Summary}
+To sum up, Nike should adopt relevant diversification strategies for the overall business portfolio, actively look for new question mark products to ensure the future performance. Then, Nike should mainly apply product extension strategy to existing products, develop new products rather than excessive marketing to improve the current market share and ensure short-term growth. For the small-scale and sluggish growth dog products, such as the equipment, it should be carefully investigated to decide whether to sell or stop, so as to save costs. In the process of Nike's globalization, it need to apply geocentrism and regiocentrism strategy, not only recognize the differences between different markets, but also find and make use of the most common points to save costs.
+\section{Competition strategy}
+
+\subsection{Analysis of main business}
+There are 3 main categories of the business of Nike, including footwear and apparel products, sport accessories and digital equipment and service. 
+\begin{enumerate}
+    \item Among all of the business, footwear and apparel is the uppermost business. The company mainly has 6 product lines, Running, NIKE Basketball, the Jordan Brand, Football (Soccer), Training and Sportswear, totally focus on the footwear and apparels. In this kind of business, Nike mainly occupies the field of basketball shoes, the main consumer group is young people, its Jordan basketball series has been very popular, star basketball shoes such as Kobe Bryant is also popular among teenagers. Nike air Force series, Nike Dunk SB series and so on have become the most mainstream shoes. Their influence and popularity is well-known, especially the new and limited edition released every year, which makes many consumers love them.
+
+    \item The second kind is some sport accessories, including bags, socks, sport balls, protective equipment and other equipment designed for sports activities. Due to its low cost, many competitors and fierce product competition, the company has little advantage in the market of such products.
+    \item The last is the digital equipment and services, like service of Nike+ apps, and some digital devices. This kind of business is the development trend of the industry in the future. At present, the company is still under development and has not reached the mature stage.
+\end{enumerate}
+\subsection{Consumer analysis}
+\begin{enumerate}
+    \item At present, with the growth of the world economy, the general increase of residents' income, consumption ability, so the overall demand for leisure sports increased. Take the Chinese market as an example. At present, China's economy is developing steadily and people's living standards are improving. Young people are encouraged to play amateur sports. Experts predict that China's market for sports goods will expand further.
+         \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=160mm,scale=0.5]{Graphics/2.6.2.jpg}
+			\end{center}
+       		\caption{\label{2.6.2}Sports shoe market}
+        \end{figure}
+    \item In the era of human rights and fairness, equality between men and women was advocated, and women were more encouraged to participate in sports. As a result, demand growth for women's wear products is expected to account for most of the overall demand growth. 
+
+\end{enumerate}
+\subsection{Industry status}
+At present, the global sports shoes and clothing market is still in a growing trend. A number of securities companies predict that in the next five years, sports shoes market will slowly grow. Nike has always dominated the global sneaker market. Two brands including Nike and Adidas, as well as rising sportswear brands, are making the sneaker market more and more competitive.
+\begin{figure}[htbp]
+     \centering
+     \begin{minipage}{.45\linewidth}
+     \centering
+     \includegraphics[width=60mm]{Graphics/2.6.3 1.jpg}
+     \caption{\label{2.6.3.1}Global Market Share}
+     \end{minipage}
+     \qquad
+     \begin{minipage}{.45\linewidth}
+     \centering
+     \includegraphics[width=60mm,scale=0.5]{Graphics/2.6.3 2.png}
+     \caption{\label{2.6.3.2}The size of the global sneaker market}
+     \end{minipage}
+ \end{figure}
+\subsection{Product lines and strategy}
+\subsubsection{Main products}
+\par
+Statue:
+\begin{itemize}
+    \item In Boston matrix principle, we divide product development into four stages: stars, cash cow, question marks and dogs. And Nike's main product, it is in the quadrant of low growth rate and high market share, and has entered the mature period. Its large sales volume, high product margins and low debt ratio can provide funds for enterprises. It has become the backing for enterprises to recover funds and support other products, especially star product investment. Usually, enterprises will cash cow products for the following processing.
+    \begin{enumerate}
+    \item Diminish the investment as far as possible 
+    \item Strive for more profits in a short period of time, to provide funds for other products
+    \end{enumerate}
+    \item But for the products whose sales growth rate still increases in this quadrant, further market segmentation should be carried out to maintain the existing market growth rate or slow down its decline rate. Especially for NIKE, due to its main revenue comes from its shoe product, it can’t compress the investment of this product.
+\end{itemize}
+Strategy:
+\begin{itemize}
+    \item \textbf{Cost-leader strategy} \par Cost-leader strategy is a strategy implemented by NIKE when the enterprise development has improved to a certain extent. On the basis of certain product production experience, NIKE begins to implement large-scale production and obtain the benefits of large-scale production. Because NIKE make virtual production, the company itself is not involved in the production process. NIKE's OEM (Original Equipment Manufacturer) will certainly choose those factories with cheap labor. In addition, the raw materials are provided by local raw material suppliers in cooperation with NIKE manufacturers, which also saves some production costs. Controlling production costs is NIKE's constant mission. 
+    \item \textbf{Celebrity effect} \par After Philip Knight found that basketball stars have a certain appeal to basketball fans, he would not hesitate to invite the current famous athletes to represent Nike. Take Michael Jordan. And because of Jordan's rapid rise in popularity, the AIRJODAN series of basketball shoes has become a Nike classic. Now Jordan has many styles of shoes have high collection value, it has not only represented a pair of shoes, more basketball fans of Jordan's spirit collection. The company now invites popular streaming stars to endorse its main products, such as NBA stars, football stars, golf stars and so on.
+    \item \textbf{Differentiation strategy} \par After the star effect, Nike has created a certain brand awareness, good brand reputation is conducive to the further development of the enterprise. He differentiated each product to make it difficult to be imitated by other brands and to make the product more suitable to the needs of consumers. For example, for the basketball shoes series, it creates different products according to the sports habits and competition needs of different basketball players; for the kind of running shoes, Nike adopts the differentiation strategy by its unique technology like NIKE Air, Zoom, Free, Flywire, Dri-Fit, Flyknit, Flyweave, FlyEase, ZoomX, Air Max and so on, designed primarily for specific athletic use, although a large percentage of the products are worn for casual or leisure purposes. With the support of star effect, the price of sports shoes can be greatly increased, so as to obtain higher profit margin.
+    \item \textbf{Product innovation} \par Nike's innovative products are designed according to customer needs. In addition, Nike has put a lot of effort into product development. The designers they employ are generally athletes, because they know more about the performance of products needed for sports and can better design products to meet people's sports needs. Most of the researchers come from biology, chemistry, engineering and technology majors, and the company employs a research committee and a customer committee to regularly review designs, materials and ideas for improving the shoes. Nike sneakers have a number of patents, Nike really do high-tech into the production process of shoes. Nike invested a lot of money in product research and development. In 1980, it invested 2.5 million dollars. Such a large amount of money also shows that Nike attaches great importance to its product development. Nike company in order to meet consumer demand for private customization strategy. This kind of private order has gained more consumer recognition and affirmation. Continuous product innovation is the main driving force for the growth of enterprise operating income. Although Nike has achieved steady growth every year, the company will still be committed to research and development and innovation, with fresh power to meet the vagaries of the market demand.
+\end{itemize}
+\subsubsection{Digital equipment and service}
+\par
+Statue:
+\begin{itemize}
+    \item With the popularization and development of Internet and big data technologies, more and more industries begin to use new digital technologies to achieve industrial upgrading and transformation. In the sports goods sales industry is no exception, in 2013, Nike began to use digital technology. Launched Nike+ online service and various electronic wearables. But in this area, NIKE’s development is still immature.
+   
+    \item We can see that Nike didn't have a share of the smart wear market in 2019 shipments. In the BCG Matrix, it is in the high growth rate, low market share quadrant. The former shows that the market opportunity is big and the prospect is good, while the latter shows that there are problems in marketing. Its financial characteristics are low profit margins, insufficient capital requirements and high debt ratios. For example, in the product life cycle in the introduction period, for a variety of reasons failed to develop the market situation of the new product is the product of this kind of problem. Selective investment strategy should be adopted for problem products. Therefore, the improvement and support of the problem products are generally included in the long-term plan of the enterprise. For the management organization of problem products, it is best to adopt the form of think tank or project organization, and select talented people with planning ability, courage to take risks.
+\end{itemize}
+\begin{figure}[htbp]
+     \centering
+     \begin{minipage}{.45\linewidth}
+     \centering
+     \includegraphics[width=55mm]{Graphics/2.6.4 digital equitment and service statue.jpg}
+     \caption{\label{2.6.4.1}Global smart wear output}
+     \end{minipage}
+     \qquad
+     \begin{minipage}{.45\linewidth}
+     \centering
+     \includegraphics[width=57mm]{Graphics/2.6.4 main product statue.jpg}
+     \caption{\label{2.6.4.2}Revenue share of NIKE}
+     \end{minipage}
+\end{figure}
+Strategy:
+\begin{itemize}
+    \item \textbf{Market penetration} \par Facing existing customers with existing products, focusing on its product market mix, and striving to increase the market share of products. Adopt the strategy of market penetration, persuade consumers to switch to different brands of products, or persuade consumers to change their habits and increase the purchase volume by means of promotion or service quality promotion. At present, Nike combined with his mature products, launched a small number of smart wears, such as smart watches, smart shoes and so on. However, the price of this kind of products is expensive and the sales volume is small, which is not conducive to market penetration. In the Ansoff Matrix, when we use the market penetration strategy, that can always be executed in a number of ways: first decreasing prices to attract new customers, second increasing promotion and distribution efforts, third acquiring a competitor in the same marketplace. In Nike's current situation, acquisitions or partnerships with competitors are more appropriate.
+    \item \textbf{	Acquisition or merger} \par Nike could acquire or partner with some of the companies that currently have a large presence in the e-wear market. For example, Apple currently has some partnerships with Nike. This kind of cooperation can be deeper, so that Nike can enter the industry, more importantly, through big data technology, collect the public's demand for sports products, and then apply it to the innovation and development of main products.
+    
+\end{itemize}
+%Chapter 3
+\chapter{Comments and Suggestions}
+\section{Combined Analysis based on SWOT}
+
+\begin{enumerate}
+    \item \textbf{SO strategy} \par To take advantage of the people's consumption level to improve, the pace of life accelerated, intensified competition, social residents of leisure sports demand increased market opportunities; Give full play to Nike's advantages in corporate image and reputation, brand value and product appearance design. 
+    \par For example: 
+    \begin{enumerate}
+        \item penetration of consumers from teenagers to every age class, conform to the national fitness
+        \item Lower the consumption threshold and produce products suitable for people with lower consumption level
+    \end{enumerate}
+    \item \textbf{WO strategy} \par Make use of the advantages of corporate image and reputation, brand value and product design to overcome the shortcomings of the company in product quality and ensure the quality of products as soon as possible through more strict production management; At the same time, research and development of new products, improve the core competitiveness of other products other than footwear, to ensure the diversification of its market share.
+    \item \textbf{ST strategy} \par In recent years, the rise of sports brands is very fast, product design, quality and comfort have been greatly improved, and are gradually expanding from the middle market to the high-end market. Nike should play its advantages in corporate image and reputation, brand value and product appearance design. To avoid the threat of rising sports brands. Therefore, we must increase the company's brand operation, find ways to improve consumer loyalty, and ensure the company's position in the high-end market.\par
+    To circumvent the industry into the low threshold, circumvent the residents can choose product scope to increase, and the rise of other sports brands such as threats, through the brand operation, implement the strategy of expansion, increase the differentiation with other sports brand, and continue to do better, unique product for latecomers set higher barriers to entry, enter the technology and the cost of capital.
+    \item \textbf{WT strategy} \par To overcome the shortage of the company in terms of quality of some products, through more stringent production management, ensure the quality of products to improve as soon as possible, and to avoid the threat of the industry general improvement in the quality of the product must be: while maintaining the high-end products of the company image, attention should be paid to control costs, enable companies to provide quality and cheap products.\par
+    In order to avoid the low entry threshold of the industry, the general improvement of product quality in the industry and the rise of other sports brands and other threats, it is necessary to actively research and develop new products, extend the product chain, make products involved in various fields, increase the range of choices for customers, and ensure the company's market share.
+    \item \textbf{Conclusion} \par Sports is a theme that sports brand companies cannot give up. Nike should actively develop new products on the basis of improving its core characteristic footwear products and improving consumers' loyalty to it, so as to adapt to people's pursuit of high-quality and healthy life and let people know that sports can actually be beautiful.\par
+    We can also carry out running activities in the city, such as marathon, hiking competition, orienteering, etc., to enhance the enthusiasm of citizens to exercise, so that people know that exercise makes us healthier.\par
+    According to the different cultures of different countries to launch products with cultural characteristics, in order to attract consumers, let consumers have a sense of affinity. At the same time, the local market should be better investigated to adapt to the consumption needs of local people.
+\end{enumerate}
+\section{The PR crisis}
+\subsection{Problem Analysis}
+In March 2021, Nike released a statement said that they do not source of products from the XUAR and have confirmed with their suppliers to do the same thing. It immediately attracted the attention of Chinese customers and set off a wave of boycotting Nike. The reason Nike would make such a statement is because of the “Uyghur Forced Labor Prevention Act”, which prohibit U.S. companies from purchasing goods produced in Xinjiang. Despite China's strong protest against the act and claim it is a distortion of facts, Nike clearly chose to support this act.  \par
+May be Nike thinks the boycott from Chinese customer is just a temporary issue, and will go away as time go past. Apparently, they made an error in judgment. According to the financial report, we can clearly see that the total revenue in greater China has facing a Continuous decline in 2021, which falling from 2,279 million at the beginning of the year to 1,844 million at the end of the year, decline 20 percent. Considering the possibility of seasonality, we counted all of Nike's sales revenue in greater China from 2018 to 2021. We can see that the curve of 2021 is completely different from other years, which exclude the seasonal factors. Another possibility is that the supply chain in Vietnam was interrupted by the epidemic, resulting in a lack of stock. But the decline was happened around March, much earlier than the closure of factories in August. So, in summary we believe that Nike's statement on Xinjiang has significantly impacted its sales revenue in China. They had to take some actions to stop the continued decline in sales and the deterioration of their reputation, especially by means of public relationship tools.\par
+ \begin{figure}[!htbp]
+     \centering
+     \includegraphics[width=60mm]{Graphics/3.2.1.1.jpg}
+     \qquad
+     \includegraphics[width=60mm,scale=0.5]{Graphics/3.2.1.2.jpg}
+     \caption{\label{3.2.1}Revenue in Greater China}
+ \end{figure}
+\subsection{Solutions}
+According to the \textbf{5S principle of PR crisis}, the measures taken by a company when facing a crisis event should conform to the following principles.
+ \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=100mm,scale=0.5]{Graphics/3.2.2.jpg}
+			\end{center}
+       		\caption{\label{3.2.2}5S principle of PR crisis}
+ \end{figure}
+\begin{enumerate}
+    \item \textbf{Shoulder}\par After a crisis event, companies must be brave enough to take responsibility, otherwise their reputation and image in the public mind will be damaged. In order to calm their anger and win back their trust, companies must use media channels to provide the public with a good and detailed explanation and apology, instead of rushing to brush off responsibility.
+    \item \textbf{Sincerity}\par It is also important for the company to communicate sincerely with the public. Put the interests of the public first and guide public opinion through the media. There are various ways to communicate, but the prerequisite must be to maintain a sincere attitude.
+    \item \textbf{Speed}\par Respond as quickly as possible when a crisis event occurs. 24 hours is the best time to deal with a crisis, missing this time negative news may be amplified by the media and thus cause more harm.
+    \item \textbf{System}\par The company must work in a comprehensive and orderly manner according to the plan, thus ensuring that no mistakes are made at every step of the way. Deal with every detail in order to ensure timely, accurate and effective resolution of the incident crisis.
+    \item \textbf{Standard}\par Defending yourself may further anger the public, so seeking the approval of an authoritative third-party agency is an effective means. Through socially influential media and opinion leaders, we can reverse the bias in the minds of the public.
+
+\end{enumerate}\par
+Nike has not yet issued any apology statement to the Chinese market for this issue. Some media even reported that the slogan "Let trash do the talk" appeared in Nike's online store, further angering the public. It was only at the end of June that Nike's CEO said in an earnings call that "Nike is a brand that belongs to China and serves China”. We can see the problems of Nike in the handling of this crisis event. First, no responsibility. When negative news broke about Nike, they chose not to apologize for it, but to take the cold shoulder. Second, insincerity. Nike does not consider the thoughts of Chinese consumers. They chose to put out a very arrogant slogan, even though they know it would anger the public. Third, slow processing. Nike did not come out with a statement in the first place, but only after a few months forced by the decline of performance. Overall, Nike made many mistakes during this crisis event. It has also caused a lot of damage to its reputation in China. Therefore, Nike must take some effectively actions to solve this PR crisis and make precautions to prevent the next crisis.
+\begin{enumerate}
+    \item \textbf{Cognitive level}\par Forecast and stop crisis events before they happen is the most effective way. Nike, as a large multinational company, will be exposed to different countries and different cultures, so it must enhance the aware of the crisis. They need to clearly recognize the bottom line of different countries and never cross it. On this basis, the company should conduct regular training and education to enhance the understanding of the character and consumption habits of different countries. Improve employees' crisis awareness and crisis vigilance.
+    \item \textbf{Response Level}\par Establish a crisis warning mechanism. In today's fast-growing Internet environment, public opinion on the Internet can quickly spread negative news about a company and magnify it infinitely. Nike should have to build the corresponding crisis control team and develop a complete set of treatment plan. This can prevent the sudden face of crisis events will not fall into chaos, thus avoiding the crisis was further expanded. At the same time, they need to make a scientific assessment of the harm of the event, in order to judge the direction of the event in a timely and effective manner. Nike also has to establish smooth communication channels, using Weibo and other network platforms to actively communicate with the public. Win back the public's trust by investing more in advertising and apologizing promptly and sincerely.
+    \item \textbf{Operational level}\par Nike has to analyze the nature of the crisis that occurred in depth. Learning from experience after the crisis has passed. If the crisis involves a specific product, then it is important to recall the product circulating in the market. If the crisis is being questioned by the public due to internal management issues, then it is important to identify the loopholes in our own management system and fix them. In addition, hire paid Internet trolls to turn the tide of public opinion when necessary.
+
+\end{enumerate}
+\section{Future development preview}
+\subsection{Market broaden}
+\paragraph{Market channels}
+Most of Nike's sales come from retailers and wholesalers, who account for 60\% of Nike's revenue in 2021, of which DTC direct sales revenue accounted for only 38\%. Products from manufacturers to consumers, the middle has been divided by dealers and wholesalers’ part of the profits, resulting in consumers to buy the product price increased a lot, reducing the competitiveness of the product in the market traders. In addition, the settlement with distributors usually has a certain number of periods, i.e., there is a time interval for the return of cash, which increases the company's receivable days and is not conducive to the company's working capital management. In addition, consumers not only pursue high quality products, but also need to have good service. The DTC business can be a faster way to recoup capital and keep most of the profits in your hands. At the same time, it can better unify the service process and improve the customer's consumption experience. \par
+ \begin{figure}[ht]
+ 			\begin{center}
+				\includegraphics[width=100mm,scale=0.5]{Graphics/3.3.1.jpg}
+			\end{center}
+       		\caption{\label{3.3.1}Sale proportion}
+ \end{figure}
+
+Therefore, Nike should increase the development of DTC business, and introduce innovative technologies to improve customers' purchasing experience by optimizing online sales and offline direct stores. For example, build more considerate after-sales service, more comfortable store environment, more concise and easy-to-understand operation interface, and more convenient purchase process to attract customers to use Nike's direct channels for consumption and provide the proportion of DTC to revenue.
+\paragraph{Explore new markets}
+Sports sneaker culture has always been dominated by the male market. With the corresponding saturation of the male sports market, along with the prevalence of female fitness trend, the position of female customers in this market is more critical, and under the background of "her economy", the female market will become a new breakthrough point. Nike should always grasp the changes in consumer trends, increase investment in the female consumer market, and actively develop new markets.\par
+At the same time, Nike is highly dependent on the North American market, of which sales revenue accounted for more than 40\%, excessive reliance on the market will lead to its ability to resist the risk of market changes reduced, the epidemic in the United States in 2020 led to a large reduction in Nike's income. Nike should actively expand foreign markets, especially the Greater China market, in addition to entering the markets of emerging economies such as India, Brazil and Mexico to expand penetration of these markets.
+\subsection{Brand innovation}
+For Nike, it is very important to improve the brand value, which is not only a manifestation of competitiveness, but also a way to show the market share. In the competition of various enterprises, when the product is basically the same as the competitor's product, the added value of the product should be improved while the production cost is reduced. However, with the change of consumer shopping habits as well as consumption concepts, the online world occupies an increasingly high position in the hearts of consumers, and people's desire to buy virtual clothing is increasing. In recent years, due to the restriction of the new crown epidemic quarantine policy in various countries, people's demand for online social, business and entertainment has increased, and they have raised higher requirements for the interoperability and authenticity of virtual reality. The concept of "metaverse" has gradually entered everyone's vision and become a hot topic.\par
+Currently, more and more large technology companies are entering the metaverse to integrate this concept into the future development of their brands. Facebook, for example, has recently strengthened its "metaverse"-related business and will invest more in the development of "metaverse"-related technologies in the future. In addition to Facebook's metaverse initiatives, on August 11 this year, graphics giant NVIDIA announced that Omniverse, the world's first simulation and collaboration platform that provides the foundation for metaverse building, will be open to millions of new users. In Japan, Japanese social networking giant GREE said it will launch a "metaverse" business centered on its subsidiary REALITY and expects to invest 10 billion yen (about \$590 million) by 2024 to develop more than 100 million users worldwide.\par
+On November 18, Nike announced that it is working with Roblox to create a virtual world called "Nikeland" on Roblox' online gaming platform, a sign of the sporting goods giant's move into the metaverse. Nike plans to incorporate a number of sports to simulate global sporting events. This could include a soccer game during the World Cup or a capture-the-flag football game during the Super Bowl. Nike says it will continue to update the virtual world so that athletes and sports products can be integrated as well. Players can also enter the digital display space, dress up their avatars in Nike apparel, and check out the latest Nike products at any time. This will help Nike expand its brand presence in the online world and allow a new generation of athletes to fall in love with the value of their own brand, which can eventually translate into real-world sales.\par
+However, it is not possible to develop the meta-universe blindly and it is important to look rationally at the problems it may have. For example, there is no risk of the virtual products sold being stolen by hackers, which could trigger more serious hype, and the possibility of compromising personal privacy. Therefore, Nike can invest in the meta-universe as a means to improve the brand image in the short term, but also in the long term with great caution.
+
+\chapter*{Conclusion}
+\addcontentsline{toc}{chapter}{Conclusion}
+In industry overview, we know that sporting goods market has been facing a rapid growth. A survey report has showed that the scale of the world sporting goods consumer market in 2000 was about 92 billion US dollars. More and more enterprises began to enter this industry in an attempt to take a share. Nike, as the largest sporting goods company in the world, is the main research object of this report.\par
+First of all, in PESTEL and Porter's five forces analysis, we find out the external factors affecting the development of the company. Afterwards, we dive into the detailed analysis of Nike. After value chain and SWOT and financial analysis, we find that although Nike has strong competitiveness in the market, it still has some weakness that may affect its development. Next, we use BCG matrix, Ansoff matrix and Boston matrix to analyse Nike's corporate level strategy and business level strategy. We propose Nike should adopt a diversification strategy for the current overall business portfolio and adopt different strategies for different market segments. Last but not least, we find the problems Nike is currently facing and give some solutions. We also put forward some suggestions for Nike' future development such as market broaden and brand innovation.\par
+We also hope Nike can solve existing problems and continuously improve product competitiveness. Make continuous progress on the basis of keeping the first place in the world.
+
+% \SWOT
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{lookup}
+\addcontentsline{toc}{chapter}{Reference}
+\end{document}
